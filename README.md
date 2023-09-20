@@ -13,7 +13,11 @@ Make file contains commands needed.
 * `make run` Runs the program
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 echo "Lakshmi was here"
 =======
 Echo "Tabish is making a change" 
 >>>>>>> 6bad9d3 (test commit)
+=======
+echo "Craig was here"
+>>>>>>> 740bc41 (Test Commit)
