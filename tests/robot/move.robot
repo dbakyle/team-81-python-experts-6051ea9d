@@ -37,4 +37,3 @@ Move character
     Character xposition should be        ${endingX}
     Character yposition should be        ${endingY}
     Character moveCount should be        ${endingMoveCount}
-
