@@ -5,7 +5,8 @@ class Character:
     name = ""
     startingPos = Position(1,1)
     currentPos = Position(1,1)
-    
+    gamemap: GameMap
+
     def __init__(self, character_name = DEFAULT_NAME):
         self.name = character_name
 

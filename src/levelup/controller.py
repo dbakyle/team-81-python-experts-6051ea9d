@@ -56,7 +56,7 @@ class GameController:
 
     def set_current_move_count(self, move_count: int) -> None:
         # TODO: IMPLEMENT THIS TO SET CURRENT MOVE COUNT -- exists to be testable
-        pass
+        status = move_count
 
     def get_total_positions(self) -> int:
         # TODO: IMPLEMENT THIS TO GET THE TOTAL POSITIONS FROM THE MAP - - exists to be
