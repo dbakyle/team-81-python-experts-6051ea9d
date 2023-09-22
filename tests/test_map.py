@@ -9,11 +9,13 @@ class test_gamemap(TestCase):
         (x,y)=testpos.getPosition()
         assert x==0
     
-    def newselfposition(self):
-        newobj=calculateposition()
-        moveobj=newobj.newposition(newobj,"NORTH")
-        (x,y)=testpos.getPosition()
-        assert x++1
+    def newposition(self):
+        North=(x,y++1)
+        East=(x++1,y)
+        West=(x--1,y)
+        South=(x,y--1)
+        
+
 
     
     
