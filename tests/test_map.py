@@ -8,5 +8,12 @@ class test_gamemap(TestCase):
         testpos=testObj.calculateposition(startingposition,"NORTH")
         (x,y)=testpos.getPosition()
         assert x==0
+    
+    def newselfposition(self):
+        newobj=calculateposition()
+        moveobj=newobj.newposition(newobj,"NORTH")
+        (x,y)=testpos.getPosition()
+        assert x++1
 
+    
     
